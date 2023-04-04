@@ -1,0 +1,22 @@
+.left-side{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.pad-col{
+    padding: 0 50px 0 50px;
+    background: rgb(15, 21, 41);
+    font-size: 20px;
+    height: 60px;
+}
+
+.nav-link {
+    color: rgb(233, 232, 232);
+    font-size: 20px;
+    padding-right: 20px;
+}
+.navbar-brand {
+    color: rgb(233, 227, 227);
+    font-size: 20px;
+}

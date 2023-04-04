@@ -1,0 +1,29 @@
+<div class="my-3">
+    <h2>Promise</h2>
+    <button class="btn btn-success" (click)="solve()">Click Me</button>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-4">
+            <strong>Ex - 01 : With Promise</strong>
+            <hr>
+            <button class="btn btn-primary" (click)="getData1()">Buy laptop</button>
+            <div  *ngIf="data1"  [innerText]="data1"></div>
+        </div>
+
+        <div class="col-md-4">
+            <strong>Ex - 02 : Async / await</strong>
+            <hr>
+            <button class="btn btn-primary" (click)="getData2()">Buy laptop</button>
+            <div *ngIf="data2" [innerText]="data2"></div>
+        </div>
+
+        <div class="col-md-4">
+            <strong>Ex - 03 : With Fetch API</strong>
+            <hr>
+            <button class="btn btn-primary" (click)="getData3()">Buy laptop</button>
+            <div *ngIf="data3" [innerText]="data3"></div>
+        </div>
+    </div>
+</div>
